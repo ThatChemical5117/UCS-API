@@ -1,0 +1,19 @@
+[
+  {
+    "file": "src/main.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-g",
+      "-DDEBUG",
+      "-Wall",
+      "-I./include",
+      "-I../vendor/Crow-1.3.3/include",
+      "-o",
+      ".obj/main.o",
+      "-c",
+      "src/main.cpp"
+    ],
+    "directory": "/home/ThatChemical/Dev/UCS/Server/Application",
+    "output": ".obj/main.o"
+  }
+]

@@ -1,0 +1,33 @@
+.obj/main.o: src/main.cpp ../vendor/Crow-1.3.3/include/crow.h \
+ ../vendor/Crow-1.3.3/include/crow/query_string.h \
+ ../vendor/Crow-1.3.3/include/crow/http_parser_merged.h \
+ ../vendor/Crow-1.3.3/include/crow/common.h \
+ ../vendor/Crow-1.3.3/include/crow/utility.h \
+ ../vendor/Crow-1.3.3/include/crow/settings.h \
+ ../vendor/Crow-1.3.3/include/crow/ci_map.h \
+ ../vendor/Crow-1.3.3/include/crow/TinySHA1.hpp \
+ ../vendor/Crow-1.3.3/include/crow/socket_adaptors.h \
+ ../vendor/Crow-1.3.3/include/crow/socket_acceptors.h \
+ ../vendor/Crow-1.3.3/include/crow/logging.h \
+ ../vendor/Crow-1.3.3/include/crow/json.h \
+ ../vendor/Crow-1.3.3/include/crow/returnable.h \
+ ../vendor/Crow-1.3.3/include/crow/mustache.h \
+ ../vendor/Crow-1.3.3/include/crow/task_timer.h \
+ ../vendor/Crow-1.3.3/include/crow/http_request.h \
+ ../vendor/Crow-1.3.3/include/crow/websocket.h \
+ ../vendor/Crow-1.3.3/include/crow/http_response.h \
+ ../vendor/Crow-1.3.3/include/crow/mime_types.h \
+ ../vendor/Crow-1.3.3/include/crow/TinySHA1.hpp \
+ ../vendor/Crow-1.3.3/include/crow/parser.h \
+ ../vendor/Crow-1.3.3/include/crow/multipart.h \
+ ../vendor/Crow-1.3.3/include/crow/exceptions.h \
+ ../vendor/Crow-1.3.3/include/crow/multipart_view.h \
+ ../vendor/Crow-1.3.3/include/crow/routing.h \
+ ../vendor/Crow-1.3.3/include/crow/middleware.h \
+ ../vendor/Crow-1.3.3/include/crow/middleware_context.h \
+ ../vendor/Crow-1.3.3/include/crow/compression.h \
+ ../vendor/Crow-1.3.3/include/crow/http_connection.h \
+ ../vendor/Crow-1.3.3/include/crow/compression.h \
+ ../vendor/Crow-1.3.3/include/crow/http_server.h \
+ ../vendor/Crow-1.3.3/include/crow/version.h \
+ ../vendor/Crow-1.3.3/include/crow/app.h
