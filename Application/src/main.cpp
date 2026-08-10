@@ -1,5 +1,8 @@
 #include <crow.h>
 
+#include <routes/root.h>
+
+
 int main()
 {
 	crow::SimpleApp app;
@@ -9,6 +12,8 @@ int main()
 		crow::mustache::context ctx ({{"person", "Jeff"}});
 		return page.render(ctx);
 	});
+
+	CROW_ROUTE(app, "/<string>")(API::indexRoute);
 
 
 	app.port(3000).multithreaded().run();

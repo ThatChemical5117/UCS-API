@@ -1,1 +1,7 @@
+Application/.obj
+Application/.dep
+UnitTests/.obj
+UnitTests/.dep
+bin
+compile_commands.json
 .env
